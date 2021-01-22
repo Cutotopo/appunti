@@ -1,0 +1,47 @@
+﻿<metro:Window x:Class="APPUNTI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:APPUNTI"
+        mc:Ignorable="d"
+              ResizeMode="CanMinimize"
+        xmlns:metro="http://schemas.codeplex.com/elysium"
+        xmlns:params="http://schemas.codeplex.com/elysium/params"
+        params:Manager.Theme="Dark"
+        params:Manager.AccentBrush="{x:Static metro:AccentBrushes.Green}"
+        Background="{DynamicResource BackgroundBrush}"
+        Title="Appunti" Height="500" Width="800">
+    <Grid>
+        <TextBlock Text="" Visibility="Hidden" x:Name="pathnamebox" />
+        <TextBox Width="782" HorizontalAlignment="Center" VerticalAlignment="Top" AcceptsReturn="True" x:Name="TextPanel" TextWrapping="Wrap" AcceptsTab="True" TextChanged="TestoCambiato" Height="339" VerticalContentAlignment="Top" />
+        <WrapPanel Orientation="Vertical" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Label Height="5" />
+            <Button Background="Transparent" Foreground="White" IsHitTestVisible="False">
+                <WrapPanel Orientation="Horizontal">
+                    <Label Content="Caratteri:" Foreground="White"/>
+                    <Label Content="0" x:Name="charNum" Foreground="White" />
+                    <Label Content=" | " Foreground="White" />
+                    <Label Content="File:" Foreground="White" />
+                    <Label Content="Non salvato" x:Name="PathName" Foreground="White" />
+                    <Label Content=" | " Foreground="White" />
+                    <Label Content="Salvataggio automatico:" Foreground="White" />
+                    <Label Content="No" Foreground="White" x:Name="AutoSaveStatusBool" />
+                </WrapPanel>
+            </Button>
+            <Label Height="5" />
+            <Button Content="Mantieni in primo piano (disattivato)" x:Name="TopMostBtn" HorizontalAlignment="Center" Width="782" Click="TopMostTrue" />
+            <Label Height="5" />
+            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" Width="782">
+            <Button Content="Esporta file" x:Name="ExportBtn" HorizontalAlignment="Left" Width="326" Click="ExportFile"/>
+            <Label Width="5" />
+            <Button Content="GitHub" x:Name="GitBtn" HorizontalAlignment="Right" Width="120" Click="ViewGit"/>
+            <Label Width="5" />
+            <Button Content="Importa file" x:Name="ImportBtn" HorizontalAlignment="Right" Width="326" Click="ImportFile"/>
+                
+            </WrapPanel>
+            <Label Height="5" />
+
+        </WrapPanel>
+    </Grid>
+</metro:Window>

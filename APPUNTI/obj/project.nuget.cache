@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "GjFzqLWXCtOYO/72PdR0IlTik9N4unlOzJi6qP1ZtbU75TGQO9krEQAeJi4HzzcTWTFvvWaH7Y9CBM7cXnvBuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\franc\\source\\repos\\Appunti\\APPUNTI\\APPUNTI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\elysium.theme\\2.0.4\\elysium.theme.2.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Elysium.Theme 2.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Elysium.Theme",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

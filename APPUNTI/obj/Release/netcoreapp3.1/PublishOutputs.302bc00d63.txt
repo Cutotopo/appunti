@@ -1,0 +1,6 @@
+C:\Users\franc\Desktop\appunti\Appunti.exe
+C:\Users\franc\Desktop\appunti\Appunti.dll
+C:\Users\franc\Desktop\appunti\Appunti.deps.json
+C:\Users\franc\Desktop\appunti\Appunti.runtimeconfig.json
+C:\Users\franc\Desktop\appunti\Appunti.pdb
+C:\Users\franc\Desktop\appunti\Elysium.dll

@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Elysium.Theme/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Elysium.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Elysium.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elysium.Theme/2.0.4": {
+      "sha512": "JI7cmit+bDy7EJWiMd3zRv1145C2ntQVs9zlLd1qRfjeqcaghI93Wjfdt9R05aY/VRmPR06hXVc2pqz7ydPCPg==",
+      "type": "package",
+      "path": "elysium.theme/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "elysium.theme.2.0.4.nupkg.sha512",
+        "elysium.theme.nuspec",
+        "lib/net40-client/Design/Microsoft.Expression.Drawing.Design.dll",
+        "lib/net40-client/Design/en/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net40-client/Elysium.Design.10.0.dll",
+        "lib/net40-client/Elysium.Design.11.0.dll",
+        "lib/net40-client/Elysium.dll",
+        "lib/net40-client/Microsoft.Expression.Drawing.dll",
+        "lib/net40-client/Microsoft.Expression.Drawing.xml",
+        "lib/net40-client/Microsoft.Windows.Shell.dll",
+        "lib/net40-client/Microsoft.Windows.Shell.xml",
+        "lib/net40-client/en/Elysium.xml",
+        "lib/net40-client/en/Microsoft.Expression.Drawing.xml",
+        "lib/net40-client/ru/Elysium.xml",
+        "lib/net45/Design/Microsoft.Expression.Drawing.Design.dll",
+        "lib/net45/Design/en/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Design/ru/Microsoft.Expression.Drawing.Design.resources.dll",
+        "lib/net45/Elysium.Design.11.0.dll",
+        "lib/net45/Elysium.dll",
+        "lib/net45/Microsoft.Expression.Drawing.dll",
+        "lib/net45/Microsoft.Expression.Drawing.xml",
+        "lib/net45/en/Elysium.xml",
+        "lib/net45/en/Microsoft.Expression.Drawing.xml",
+        "lib/net45/ru/Elysium.xml",
+        "lib/net45/ru/Microsoft.Expression.Drawing.xml",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Elysium.Theme >= 2.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\franc\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\franc\\source\\repos\\Appunti\\APPUNTI\\APPUNTI.csproj",
+      "projectName": "Appunti",
+      "projectPath": "C:\\Users\\franc\\source\\repos\\Appunti\\APPUNTI\\APPUNTI.csproj",
+      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\franc\\source\\repos\\Appunti\\APPUNTI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/Cutotopo/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Elysium.Theme": {
+            "target": "Package",
+            "version": "[2.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Elysium.Theme 2.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Elysium.Theme",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
