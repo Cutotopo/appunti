@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
     <AssemblyName>Appunti</AssemblyName>
-    <ApplicationIcon>appunti.ico</ApplicationIcon>
+    <ApplicationIcon>appunti_icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
